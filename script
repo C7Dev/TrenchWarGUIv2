@@ -1,0 +1,480 @@
+-- Made By code.#????
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local Frame_2 = Instance.new("ImageLabel")
+local Axis = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local Allies = Instance.new("TextButton")
+local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local B = Instance.new("TextButton")
+local B_Roundify_12px = Instance.new("ImageLabel")
+local A = Instance.new("TextButton")
+local A_Roundify_12px = Instance.new("ImageLabel")
+local C = Instance.new("TextButton")
+local C_Roundify_12px = Instance.new("ImageLabel")
+local D = Instance.new("TextButton")
+local D_Roundify_12px = Instance.new("ImageLabel")
+local E = Instance.new("TextButton")
+local E_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local Axis_2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
+local Allies_2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_4 = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Name = "Frame"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.159235567, 0, 0.269238919, 0)
+Frame.Size = UDim2.new(0, 231, 0, 279)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(84, 84, 84)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 231, 0, 30)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.SpecialElite
+TextLabel.Text = "Mythical Exploits"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 21.000
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = TextLabel
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.ZIndex = 2
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ImageColor3 = Color3.fromRGB(42, 42, 42)
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+Frame_2.Name = "Frame"
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Position = UDim2.new(0.0303030312, 0, 0.20788531, 0)
+Frame_2.Size = UDim2.new(0, 218, 0, 42)
+Frame_2.Image = "rbxassetid://3570695787"
+Frame_2.ImageColor3 = Color3.fromRGB(85, 40, 11)
+Frame_2.ScaleType = Enum.ScaleType.Slice
+Frame_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_2.SliceScale = 0.120
+
+Axis.Name = "Axis"
+Axis.Parent = Frame_2
+Axis.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+Axis.BackgroundTransparency = 1.000
+Axis.BorderSizePixel = 0
+Axis.Position = UDim2.new(0, 0, 0.0188678559, 0)
+Axis.Size = UDim2.new(0, 32, 0, 41)
+Axis.ZIndex = 2
+Axis.Font = Enum.Font.SpecialElite
+Axis.Text = "AXIS"
+Axis.TextColor3 = Color3.fromRGB(255, 255, 255)
+Axis.TextSize = 14.000
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = Axis
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 0, 0)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+Allies.Name = "Allies"
+Allies.Parent = Frame_2
+Allies.BackgroundColor3 = Color3.fromRGB(32, 97, 0)
+Allies.BackgroundTransparency = 1.000
+Allies.BorderSizePixel = 0
+Allies.Position = UDim2.new(0.851324916, 0, -0.0188679248, 0)
+Allies.Size = UDim2.new(0, 32, 0, 54)
+Allies.ZIndex = 2
+Allies.Font = Enum.Font.SpecialElite
+Allies.Text = "ALLIES"
+Allies.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_2.Parent = Allies
+TextButton_Roundify_12px_2.Active = true
+TextButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.396226376, 0)
+TextButton_Roundify_12px_2.Selectable = true
+TextButton_Roundify_12px_2.Size = UDim2.new(1, 0, 0.792452753, 0)
+TextButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(32, 97, 0)
+TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_2.Parent = Frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, -0.642857134, 0)
+TextLabel_2.Size = UDim2.new(0, 79, 0, 27)
+TextLabel_2.Font = Enum.Font.SpecialElite
+TextLabel_2.Text = "Teleports"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+B.Name = "B"
+B.Parent = Frame_2
+B.BackgroundColor3 = Color3.fromRGB(135, 0, 0)
+B.BackgroundTransparency = 1.000
+B.BorderSizePixel = 0
+B.Position = UDim2.new(0.303287864, 0, 0.00494166836, 0)
+B.Size = UDim2.new(0, 19, 0, 42)
+B.ZIndex = 2
+B.Font = Enum.Font.SpecialElite
+B.Text = "B"
+B.TextColor3 = Color3.fromRGB(255, 255, 255)
+B.TextSize = 14.000
+
+B_Roundify_12px.Name = "B_Roundify_12px"
+B_Roundify_12px.Parent = B
+B_Roundify_12px.Active = true
+B_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+B_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+B_Roundify_12px.BackgroundTransparency = 1.000
+B_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+B_Roundify_12px.Selectable = true
+B_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+B_Roundify_12px.Image = "rbxassetid://3570695787"
+B_Roundify_12px.ImageColor3 = Color3.fromRGB(135, 0, 0)
+B_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+B_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+B_Roundify_12px.SliceScale = 0.120
+
+A.Name = "A"
+A.Parent = Frame_2
+A.BackgroundColor3 = Color3.fromRGB(135, 0, 0)
+A.BackgroundTransparency = 1.000
+A.BorderSizePixel = 0
+A.Position = UDim2.new(0.156498849, 0, 0.00494166836, 0)
+A.Size = UDim2.new(0, 19, 0, 42)
+A.ZIndex = 2
+A.Font = Enum.Font.SpecialElite
+A.Text = "A"
+A.TextColor3 = Color3.fromRGB(255, 255, 255)
+A.TextSize = 14.000
+
+A_Roundify_12px.Name = "A_Roundify_12px"
+A_Roundify_12px.Parent = A
+A_Roundify_12px.Active = true
+A_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+A_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+A_Roundify_12px.BackgroundTransparency = 1.000
+A_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+A_Roundify_12px.Selectable = true
+A_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+A_Roundify_12px.Image = "rbxassetid://3570695787"
+A_Roundify_12px.ImageColor3 = Color3.fromRGB(135, 0, 0)
+A_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+A_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+A_Roundify_12px.SliceScale = 0.120
+
+C.Name = "C"
+C.Parent = Frame_2
+C.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
+C.BackgroundTransparency = 1.000
+C.BorderSizePixel = 0
+C.Position = UDim2.new(0.456061095, 0, 0.00494166836, 0)
+C.Size = UDim2.new(0, 19, 0, 42)
+C.ZIndex = 2
+C.Font = Enum.Font.SpecialElite
+C.Text = "C"
+C.TextColor3 = Color3.fromRGB(255, 255, 255)
+C.TextSize = 14.000
+
+C_Roundify_12px.Name = "C_Roundify_12px"
+C_Roundify_12px.Parent = C
+C_Roundify_12px.Active = true
+C_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+C_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+C_Roundify_12px.BackgroundTransparency = 1.000
+C_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+C_Roundify_12px.Selectable = true
+C_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+C_Roundify_12px.Image = "rbxassetid://3570695787"
+C_Roundify_12px.ImageColor3 = Color3.fromRGB(159, 159, 159)
+C_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+C_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+C_Roundify_12px.SliceScale = 0.120
+
+D.Name = "D"
+D.Parent = Frame_2
+D.BackgroundColor3 = Color3.fromRGB(46, 140, 0)
+D.BackgroundTransparency = 1.000
+D.BorderSizePixel = 0
+D.Position = UDim2.new(0.600149035, 0, 0.00494166836, 0)
+D.Size = UDim2.new(0, 19, 0, 42)
+D.ZIndex = 2
+D.Font = Enum.Font.SpecialElite
+D.Text = "D"
+D.TextColor3 = Color3.fromRGB(255, 255, 255)
+D.TextSize = 14.000
+
+D_Roundify_12px.Name = "D_Roundify_12px"
+D_Roundify_12px.Parent = D
+D_Roundify_12px.Active = true
+D_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+D_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+D_Roundify_12px.BackgroundTransparency = 1.000
+D_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+D_Roundify_12px.Selectable = true
+D_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+D_Roundify_12px.Image = "rbxassetid://3570695787"
+D_Roundify_12px.ImageColor3 = Color3.fromRGB(46, 140, 0)
+D_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+D_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+D_Roundify_12px.SliceScale = 0.120
+
+E.Name = "E"
+E.Parent = Frame_2
+E.BackgroundColor3 = Color3.fromRGB(46, 140, 0)
+E.BackgroundTransparency = 1.000
+E.BorderSizePixel = 0
+E.Position = UDim2.new(0.746868134, 0, 0.00494166836, 0)
+E.Size = UDim2.new(0, 19, 0, 42)
+E.ZIndex = 2
+E.Font = Enum.Font.SpecialElite
+E.Text = "E"
+E.TextColor3 = Color3.fromRGB(255, 255, 255)
+E.TextSize = 14.000
+
+E_Roundify_12px.Name = "E_Roundify_12px"
+E_Roundify_12px.Parent = E
+E_Roundify_12px.Active = true
+E_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+E_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+E_Roundify_12px.BackgroundTransparency = 1.000
+E_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+E_Roundify_12px.Selectable = true
+E_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+E_Roundify_12px.Image = "rbxassetid://3570695787"
+E_Roundify_12px.ImageColor3 = Color3.fromRGB(46, 140, 0)
+E_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+E_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+E_Roundify_12px.SliceScale = 0.120
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0295778755, 0, 0.623655915, 0)
+TextLabel_3.Size = UDim2.new(0, 66, 0, 28)
+TextLabel_3.Font = Enum.Font.SpecialElite
+TextLabel_3.Text = "Other"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.371569216, 0, 0.770609379, 0)
+TextLabel_4.Rotation = -21.000
+TextLabel_4.Size = UDim2.new(0, 62, 0, 22)
+TextLabel_4.Font = Enum.Font.SpecialElite
+TextLabel_4.Text = "Coming Soon!"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 30.000
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0295778755, 0, 0.39784947, 0)
+TextLabel_5.Size = UDim2.new(0, 66, 0, 28)
+TextLabel_5.Font = Enum.Font.SpecialElite
+TextLabel_5.Text = "Team"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+Axis_2.Name = "Axis"
+Axis_2.Parent = Frame
+Axis_2.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+Axis_2.BackgroundTransparency = 1.000
+Axis_2.BorderSizePixel = 0
+Axis_2.Position = UDim2.new(0.0303030312, 0, 0.494623661, 0)
+Axis_2.Size = UDim2.new(0, 90, 0, 34)
+Axis_2.ZIndex = 2
+Axis_2.Font = Enum.Font.SpecialElite
+Axis_2.Text = "AXIS"
+Axis_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Axis_2.TextSize = 14.000
+
+TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_3.Parent = Axis_2
+TextButton_Roundify_12px_3.Active = true
+TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_3.Selectable = true
+TextButton_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_3.ImageColor3 = Color3.fromRGB(85, 0, 0)
+TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_3.SliceScale = 0.120
+
+Allies_2.Name = "Allies"
+Allies_2.Parent = Frame
+Allies_2.BackgroundColor3 = Color3.fromRGB(32, 97, 0)
+Allies_2.BackgroundTransparency = 1.000
+Allies_2.BorderSizePixel = 0
+Allies_2.Position = UDim2.new(0.581910431, 0, 0.493676811, 0)
+Allies_2.Size = UDim2.new(0, 88, 0, 42)
+Allies_2.ZIndex = 2
+Allies_2.Font = Enum.Font.SpecialElite
+Allies_2.Text = "ALLIES"
+Allies_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Allies_2.TextSize = 17.000
+
+TextButton_Roundify_12px_4.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_4.Parent = Allies_2
+TextButton_Roundify_12px_4.Active = true
+TextButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_4.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.396226376, 0)
+TextButton_Roundify_12px_4.Selectable = true
+TextButton_Roundify_12px_4.Size = UDim2.new(1, 0, 0.792452753, 0)
+TextButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_4.ImageColor3 = Color3.fromRGB(32, 97, 0)
+TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_4.SliceScale = 0.120
+
+-- Scripts:
+
+local function RNOKB_fake_script() -- Frame.Script 
+	local script = Instance.new('Script', Frame)
+
+	frame = script.Parent
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(RNOKB_fake_script)()
+local function JDQYMS_fake_script() -- Axis.Script 
+	local script = Instance.new('Script', Axis)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.12140034139156342, 102.9990005493164, -759.3040771484375)
+	end)
+end
+coroutine.wrap(JDQYMS_fake_script)()
+local function NOWJ_fake_script() -- Allies.Script 
+	local script = Instance.new('Script', Allies)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.5783302783966064, 107.0889663696289, 753.0910034179688)
+	end)
+end
+coroutine.wrap(NOWJ_fake_script)()
+local function QRXVHO_fake_script() -- B.Script 
+	local script = Instance.new('Script', B)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28.06186866760254, 92.99897766113281, -251.09405517578125)
+		
+	end)
+end
+coroutine.wrap(QRXVHO_fake_script)()
+local function AYPV_fake_script() -- A.Script 
+	local script = Instance.new('Script', A)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10.92667293548584, 92.99897766113281, -499.9635314941406)
+	
+	end)
+end
+coroutine.wrap(AYPV_fake_script)()
+local function ZRTQVBT_fake_script() -- C.Script 
+	local script = Instance.new('Script', C)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25.327510833740234, 97.00845336914062, 0.653902530670166)
+	
+	end)
+end
+coroutine.wrap(ZRTQVBT_fake_script)()
+local function WGTZUD_fake_script() -- D.Script 
+	local script = Instance.new('Script', D)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(30.400367736816406, 100.73983764648438, 248.508056640625)
+	
+	end)
+end
+coroutine.wrap(WGTZUD_fake_script)()
+local function PXLUP_fake_script() -- E.Script 
+	local script = Instance.new('Script', E)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(24.475460052490234, 95.3754653930664, 500.6071472167969)
+	
+	end)
+end
+coroutine.wrap(PXLUP_fake_script)()
+local function HVNY_fake_script() -- Axis_2.Script 
+	local script = Instance.new('Script', Axis_2)
+
+	Player = game.Players.LocalPlayer
+	
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		
+		Player.Team = game.Teams.Axis
+		
+	end)
+end
+coroutine.wrap(HVNY_fake_script)()
+local function RUZUTZ_fake_script() -- Allies_2.Script 
+	local script = Instance.new('Script', Allies_2)
+
+	Player = game.Players.LocalPlayer
+	
+	
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		Player.Team = game.Teams.Allies
+	
+	end)
+end
+coroutine.wrap(RUZUTZ_fake_script)()
