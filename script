@@ -1,4 +1,5 @@
--- Made By code.#????
+-- Gui to Lua
+-- Version: 3.2
 
 -- Instances:
 
@@ -22,17 +23,20 @@ local D = Instance.new("TextButton")
 local D_Roundify_12px = Instance.new("ImageLabel")
 local E = Instance.new("TextButton")
 local E_Roundify_12px = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextLabel_5 = Instance.new("TextLabel")
 local Axis_2 = Instance.new("TextButton")
-local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
-local Allies_2 = Instance.new("TextButton")
 local TextButton_Roundify_12px_4 = Instance.new("ImageLabel")
+local Allies_2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_5 = Instance.new("ImageLabel")
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
 
 Frame.Name = "Frame"
 Frame.Parent = ScreenGui
@@ -288,6 +292,32 @@ E_Roundify_12px.ScaleType = Enum.ScaleType.Slice
 E_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
 E_Roundify_12px.SliceScale = 0.120
 
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.825688064, 0, -0.595238209, 0)
+TextButton.Size = UDim2.new(0, 35, 0, 22)
+TextButton.ZIndex = 2
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Spawn"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_3.Parent = TextButton
+TextButton_Roundify_12px_3.Active = true
+TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_3.Selectable = true
+TextButton_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_3.SliceScale = 0.120
+
 TextLabel_3.Parent = Frame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
@@ -332,20 +362,20 @@ Axis_2.Text = "AXIS"
 Axis_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Axis_2.TextSize = 14.000
 
-TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_3.Parent = Axis_2
-TextButton_Roundify_12px_3.Active = true
-TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px_3.Selectable = true
-TextButton_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_3.ImageColor3 = Color3.fromRGB(85, 0, 0)
-TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_3.SliceScale = 0.120
+TextButton_Roundify_12px_4.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_4.Parent = Axis_2
+TextButton_Roundify_12px_4.Active = true
+TextButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_4.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px_4.Selectable = true
+TextButton_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_4.ImageColor3 = Color3.fromRGB(85, 0, 0)
+TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_4.SliceScale = 0.120
 
 Allies_2.Name = "Allies"
 Allies_2.Parent = Frame
@@ -360,24 +390,24 @@ Allies_2.Text = "ALLIES"
 Allies_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Allies_2.TextSize = 17.000
 
-TextButton_Roundify_12px_4.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px_4.Parent = Allies_2
-TextButton_Roundify_12px_4.Active = true
-TextButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px_4.BackgroundTransparency = 1.000
-TextButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.396226376, 0)
-TextButton_Roundify_12px_4.Selectable = true
-TextButton_Roundify_12px_4.Size = UDim2.new(1, 0, 0.792452753, 0)
-TextButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px_4.ImageColor3 = Color3.fromRGB(32, 97, 0)
-TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px_4.SliceScale = 0.120
+TextButton_Roundify_12px_5.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_5.Parent = Allies_2
+TextButton_Roundify_12px_5.Active = true
+TextButton_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_5.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.396226376, 0)
+TextButton_Roundify_12px_5.Selectable = true
+TextButton_Roundify_12px_5.Size = UDim2.new(1, 0, 0.792452753, 0)
+TextButton_Roundify_12px_5.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_5.ImageColor3 = Color3.fromRGB(32, 97, 0)
+TextButton_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_5.SliceScale = 0.120
 
 -- Scripts:
 
-local function RNOKB_fake_script() -- Frame.Script 
+local function CBDI_fake_script() -- Frame.Script 
 	local script = Instance.new('Script', Frame)
 
 	frame = script.Parent
@@ -385,24 +415,24 @@ local function RNOKB_fake_script() -- Frame.Script
 	frame.Active = true
 	frame.Selectable = true
 end
-coroutine.wrap(RNOKB_fake_script)()
-local function JDQYMS_fake_script() -- Axis.Script 
+coroutine.wrap(CBDI_fake_script)()
+local function INLUY_fake_script() -- Axis.Script 
 	local script = Instance.new('Script', Axis)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.12140034139156342, 102.9990005493164, -759.3040771484375)
 	end)
 end
-coroutine.wrap(JDQYMS_fake_script)()
-local function NOWJ_fake_script() -- Allies.Script 
+coroutine.wrap(INLUY_fake_script)()
+local function TFSRKT_fake_script() -- Allies.Script 
 	local script = Instance.new('Script', Allies)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.5783302783966064, 107.0889663696289, 753.0910034179688)
 	end)
 end
-coroutine.wrap(NOWJ_fake_script)()
-local function QRXVHO_fake_script() -- B.Script 
+coroutine.wrap(TFSRKT_fake_script)()
+local function KJGND_fake_script() -- B.Script 
 	local script = Instance.new('Script', B)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -411,8 +441,8 @@ local function QRXVHO_fake_script() -- B.Script
 		
 	end)
 end
-coroutine.wrap(QRXVHO_fake_script)()
-local function AYPV_fake_script() -- A.Script 
+coroutine.wrap(KJGND_fake_script)()
+local function FZZNLUI_fake_script() -- A.Script 
 	local script = Instance.new('Script', A)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -421,8 +451,8 @@ local function AYPV_fake_script() -- A.Script
 	
 	end)
 end
-coroutine.wrap(AYPV_fake_script)()
-local function ZRTQVBT_fake_script() -- C.Script 
+coroutine.wrap(FZZNLUI_fake_script)()
+local function YWNYR_fake_script() -- C.Script 
 	local script = Instance.new('Script', C)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -431,8 +461,8 @@ local function ZRTQVBT_fake_script() -- C.Script
 	
 	end)
 end
-coroutine.wrap(ZRTQVBT_fake_script)()
-local function WGTZUD_fake_script() -- D.Script 
+coroutine.wrap(YWNYR_fake_script)()
+local function HWWJAQU_fake_script() -- D.Script 
 	local script = Instance.new('Script', D)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -441,8 +471,8 @@ local function WGTZUD_fake_script() -- D.Script
 	
 	end)
 end
-coroutine.wrap(WGTZUD_fake_script)()
-local function PXLUP_fake_script() -- E.Script 
+coroutine.wrap(HWWJAQU_fake_script)()
+local function CAZPPF_fake_script() -- E.Script 
 	local script = Instance.new('Script', E)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -451,8 +481,18 @@ local function PXLUP_fake_script() -- E.Script
 	
 	end)
 end
-coroutine.wrap(PXLUP_fake_script)()
-local function HVNY_fake_script() -- Axis_2.Script 
+coroutine.wrap(CAZPPF_fake_script)()
+local function QQBA_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7.446874141693115, -241.5400390625, -0.9508710503578186)
+	
+	end)
+end
+coroutine.wrap(QQBA_fake_script)()
+local function PXRJZCP_fake_script() -- Axis_2.Script 
 	local script = Instance.new('Script', Axis_2)
 
 	Player = game.Players.LocalPlayer
@@ -464,8 +504,8 @@ local function HVNY_fake_script() -- Axis_2.Script
 		
 	end)
 end
-coroutine.wrap(HVNY_fake_script)()
-local function RUZUTZ_fake_script() -- Allies_2.Script 
+coroutine.wrap(PXRJZCP_fake_script)()
+local function NCOE_fake_script() -- Allies_2.Script 
 	local script = Instance.new('Script', Allies_2)
 
 	Player = game.Players.LocalPlayer
@@ -477,4 +517,4 @@ local function RUZUTZ_fake_script() -- Allies_2.Script
 	
 	end)
 end
-coroutine.wrap(RUZUTZ_fake_script)()
+coroutine.wrap(NCOE_fake_script)()
